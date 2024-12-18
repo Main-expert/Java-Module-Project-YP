@@ -26,7 +26,6 @@ public class Main {
                 }
             }
 
-
             // Создаём автомобиль и проверяем его на лидерство
             Car carUser = new Car(name, speed);
             race.checkLeader(carUser);
@@ -34,7 +33,6 @@ public class Main {
 
         // Выводим победителя
         System.out.println("Самая быстрая машина: " + race.currentLeader);
-
         scanner.close(); // Закрываем Scanner
     }
 }
